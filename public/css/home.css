@@ -1,0 +1,90 @@
+html, body {
+	width: 100%;
+	margin: 0;
+}
+
+#titlebar {
+	font-size: 3em;
+	font-family: sans-serif;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
+
+#titlebar img {
+	/* Note that em's are inherited from #titlebar */
+	/* So 2 em's here are actually 8 em's on the global scale */
+	/* Basically, make the 'S' twice as tall as the text */
+	height: 2em;
+	vertical-align: middle;
+}
+
+#navbar {
+	text-align: center;
+	background-color: black;
+	height: 3em;
+}
+
+.navbutton {
+	text-align: center;
+	display: inline-block;
+	width: 12%;
+	color: white;
+	font-family: sans-serif;
+
+	height: 100%;
+	padding-top: 1em;
+
+	/* CSS TRANSITIONS FTWZ */
+	transition: background-color .5s;
+}
+.navbutton:hover {
+	background-color: rgba(255,255,255,.7);
+}
+
+#heroimg img {
+	width: 100%;
+	display: block;
+}
+
+#socialbar {
+	height: 3em;
+	background-color: black;
+}
+
+.socialbutton {
+	/* We should really be using a CSS preprocessor for this stuff, but oh well.  */
+	/* Throw it on the to-do list */
+	/*height: 2.5em;
+	width: 2.5em;
+	background-color: rgba(255,255,255,.8);
+	float: right;
+	display: inline-block;
+	text-align: center;
+	margin-top: .25em;
+	margin-right: 10px;
+	font-family: sans-serif;
+	font-size: 1em;
+	padding: 0;*/
+}
+.socialbutton:hover {
+	cursor: pointer;
+}
+
+#sponsors {
+	margin-top: 10px;
+	text-align: center;
+	font-size: 2em;
+	font-family: sans-serif;
+}
+
+#line1 {
+	height: 4em;
+	margin-top: 30px;
+}
+
+#line1 img {
+	height: 100%;
+	margin-left: 20px;
+	margin-right: 20px;
+}
