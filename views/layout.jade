@@ -2,8 +2,22 @@ doctype html
 html
 	head
 		title= title
-	link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='css/layout.css')
+		block resources
 	
+
 	body
+		div(id='navbar')
+			span(id='title') STANFORD TRIATHLON
+			a(href='join')
+				span(class='navbutton') JOIN
+			a(href='training')
+				span(class='navbutton') TRAINING
+			a(href='photos')
+				span(class='navbutton') PHOTOS
+			a(href='contact')
+				span(class='navbutton') CONTACT
+			a(href='home')
+				span(class='navbutton') HOME
+
 		block content
-		| Testing changes on git.

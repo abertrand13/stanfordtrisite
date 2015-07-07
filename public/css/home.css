@@ -36,6 +36,7 @@ html, body {
 	padding-top: 1em;
 
 	/* CSS TRANSITIONS FTWZ */
+	-webkit-transition: background-color .5s;
 	transition: background-color .5s;
 }
 .navbutton:hover {
