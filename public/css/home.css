@@ -1,11 +1,13 @@
 html, body {
 	width: 100%;
 	margin: 0;
+	font-family: 'Open Sans', sans-serif;
 }
 
 #titlebar {
 	font-size: 3em;
-	font-family: sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
 	text-align: center;
 	background-color: black;
 	color: white;
@@ -34,6 +36,8 @@ html, body {
 
 	height: 100%;
 	padding-top: 1em;
+
+	font-family: 'Open Sans', sans-serif;
 
 	/* CSS TRANSITIONS FTWZ */
 	-webkit-transition: background-color .5s;
@@ -76,7 +80,6 @@ html, body {
 	margin-top: 10px;
 	text-align: center;
 	font-size: 2em;
-	font-family: sans-serif;
 }
 
 #line1 {
