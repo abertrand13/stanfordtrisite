@@ -14,4 +14,16 @@ router.get('/officers', function(req, res, next) {
 	res.render('officers');
 });
 
+router.get('/info', function(req, res, next) {
+	res.render('info');
+});
+
+router.get('/join', function(req, res, next) {
+	res.render('join');
+});
+
+router.get('/training', function(req, res, next) {
+	res.render('training');
+})
+
 module.exports = router;
